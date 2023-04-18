@@ -1,0 +1,28 @@
+div {
+    border: 2px solid #000000;
+    margin: 30px 40px;
+    padding: 15px;
+    background-color: rgba(122, 232, 23, 0.4);
+    border-radius: 15px;
+    box-shadow: 10px 5px #000000;
+}
+
+#usuario {
+    float: left;
+    width: 10%;
+    border-radius: 50%;
+}
+
+body {
+    text-align: center;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    background: linear-gradient(to right, #b4c5ff, #4c74af);
+}
+
+h1, h2, h3 {
+    text-shadow: 1px 1px #faf5ff;
+}
+
+.tituloPrincipal {
+    font-weight: bold;
+}
