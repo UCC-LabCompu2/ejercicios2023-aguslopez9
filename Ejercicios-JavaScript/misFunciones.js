@@ -313,3 +313,23 @@ let cerrarDialog = () => {
     const dialog = document.getElementById("myDialog");
     dialog.close();
 }
+
+var x = 0;
+var dX = 2;
+let animarAuto = () => {
+    const canvas = document.getElementById("myCanvas");
+    const ctx = canvas.getContext("2d");
+
+    let img = new Image();
+    img.src = "images/auto.png";
+
+    img.onload = function () {
+        canvas.width = canvas.width;
+        ctx.drawImage(img, x, 100);
+    }
+    x += dX;
+    console.log("La coordenada x es:"+x);
+    if (x > canvas.width) {
+        x = 0;
+    }
+}
